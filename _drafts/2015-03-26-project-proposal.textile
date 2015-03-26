@@ -1,0 +1,36 @@
+---
+layout:default
+title: Project proposal 
+---
+h1. Project Proposal
+
+
+h2. # Introduction:  
+
+-  Describe the background of the cosmology application for the contest. -  Overview the specific tasks listed in the contest that you will be tackling -  Define the scope of your project and the expected results. 
+
+h3. # The tasks: 
+
+-  Explain the selected tasks in more detail 
+
+-  Describe the algorithmic and data analysis components required to perform the tasks 
+
+h4. # The data: 
+
+- Describe the contest datasets: the formats, the information contained in the data sets and the relationships between the data sets. 
+
+- If you will perform any transformation, describe your methods and explain how the data transformation will help to perform the tasks. 
+
+h5. # Software:- Describe the existing software that you will be using to read, process, and analyze the data. - Describe the software that you will be creating 
+
+h6. # Visualization design
+
+- Describe the visualization that you will be creating for the tasks - Describe how users can interact with the data  
+
+h7: # Expected results and evaluation 
+
+- Describe any actions that you have taken for the project (downloading and cleaning data, etc.) 
+
+- Present any preliminary results if any 
+
+- Describe the expected results from your project 
