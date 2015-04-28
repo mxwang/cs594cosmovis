@@ -118,11 +118,25 @@ so as to convey maximum information to the user. </p>
 <p>a. use yt to load the data</p>
 <p>b. For a given field name, obtain the corresponding data</p>
 <p>c. Given a projection direction, and then use function "ProjectionPlot" to get the projection image</p>
+
 <h6>- 2. Show the found halos distribution in the 3D space</h6>
+<p>a. use yt to load data</p>
+<p>b. use the HOP method to find the halos</p>
+<p>c. Extract the x,y,z coordinates of each halo</p>
+<p>d. Scatter those halos in 3D space</p>
 
 <h6>- 3. Show the particles evolution in the timeline</h6>
+<p>a. use the yt.DatasetSeries to load the datas of different time</p>
+<p>b. For each data, use the "design 1" to obtain the projection image</p>
+<p>c. Use a video making tool to make a video from those projection images</p>
+<p>d. For each data, use the "design 2" to obtain the halos distribution 3D image</p>
+<p>e. Use a video making tool to make a video from those 3D images</p>
 
 <h6>- 4. Track the halos merging and spliting</h6>
+<p>a. Get a halos mergering tree from the datas of different time</p>
+<p>b. Choose a data, and focus on the two halos which would merge in the next time</p>
+<p>c. In the current data, use different colors to draw their particles in a 3D space</p>
+<p>d. In the next time data, use different colors to draw their particles in a 3D space, which should be mixed</p>
 
 <p>T1: Initial data integration and browsing</p>
 <p>Visualization for task 1 will show a simulated universe ( or galaxy) covering a
