@@ -153,13 +153,16 @@ octicon-link"></span></a>II. What we've tried</h3>
     <p>At first, we have tried to do some volume rendering that yt
     provided, but get some "Failed to grid" errors and then "out of bound
 "erros.  So we decided to use matplotlib instead of yt.</p>
-    <p>We have some analyzed the given data format, and tried to convert into grid structure. Also we
+
+<p>We have some analyzed the given data format, and tried to convert into grid structure. Also we
     searched for some papers about particle volume rendering algorithms. </p>
   <h6>- Streaming or flowing line</h6>
   We have explored the methods to visualize the streaming or flowing line of the particles. But later we change our visualization
   designs.
    <h6>- MPI and yt on blue water</h6> 
-      <p> </p>
+      <<p>Beacuse of the huge dataset, we wanted to do parallel
+      computing with yt. However, we get error with "can't find yt" on
+      blue water. So we decided not to use MPI at this moment.</p>
       
 <h3>
 <a id="rather-drive-stick" class="anchor" href="#rather-drive-stick"
