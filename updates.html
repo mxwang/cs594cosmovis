@@ -49,8 +49,7 @@
 <a id="data" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>II. Results:</h3>
 
       <h6> - some outcomes. </h6>
-      <p> *******.</p>
-
+      <h3> - Particles Visualization </h3>
       <p> 1. 3d scatter plot of partial raw data at 1.0000</p>
 
       </p>In order to produce the visulization of raw data at 1.0000,
@@ -64,6 +63,68 @@
     <a href="https://plot.ly/~krolen/199/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~krolen/199.png" alt="" style="max-width: 100%;width: 889px;"  width="889" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
     <script data-plotly="krolen:199" src="https://plot.ly/embed.js" async></script>
 </div>
+     <p> 2. 2d projection plot of raw data at 0.2700</p>
+     <p>field: ('all','cic'), projection direction: Z</p>
+<img
+src="https://raw.githubusercontent.com/mxwang/cs594cosmovis/gh-pages/images/ds14_scivis_0128_e4_dt04_0.2700_Projection_z_all_cic.png"
+alt="ds14_scivis_0128_e4_dt04_0.2700_Projection_z_all_cic"
+style="width:434px;height:368px">
+     <h3> - Halos Visualization </h3>
+     <h6>-Visualize a halo</strong></h6>
+     Filtered the "heavy" particles with density, and visualize their locations and velocity
+     <img
+src="https://raw.githubusercontent.com/mxwang/cs594cosmovis/gh-pages/images/halo_1_direction.png"
+alt="halo_1_direction"
+style="width:434px;height:368px">
+     <img
+src="https://raw.githubusercontent.com/mxwang/cs594cosmovis/gh-pages/images/halo_2_direction.png"
+alt="halo_2_direction"
+style="width:434px;height:368px">
+     
+     <h6>-Visualize the halos pair merging and spliting</h6>
+     <strong>Aim:</strong> When halos merging, their particles should come close to each other
+                 <br> when halos spliting, the related particles would leave apart from each other
+                      <img
+src="https://raw.githubusercontent.com/mxwang/cs594cosmovis/gh-pages/images/two_halos_direction.png"
+alt="two_halos_direction"
+style="width:434px;height:368px">
+                 
+       
+     <h6> -Visualize all halos in a snapshot</h6>
+     <br><strong>Aim</strong>: Able to visualize the required information of halos
+     <br><strong>Parameters</strong>:
+     <br><strong>Representative locations of halos</strong>: “center of mass”, “mass density location”
+     <br><strong>Colormap</strong>:       “max_radius”, “the particles number of a halo”,"total particles mass"
+     <br><strong>Tool</strong>:   mpl_toolkits.mplot3d.scatter</p>
+     <p>a. halos location: “center of mass”, Colormap:  “max_radius”</p>
+     <img
+src="https://raw.githubusercontent.com/mxwang/cs594cosmovis/gh-pages/images/halos_3D_27_max_radius.png"
+alt="halos_3D_27_max_radius"
+style="width:434px;height:368px">
+     <p>b. halos location: “max density location”, Colormap:  “total particles mass”</p>
+       <img
+src="https://raw.githubusercontent.com/mxwang/cs594cosmovis/gh-pages/images/halos_3D_27_max_density_position_total_mass.png"
+alt="halos_3D_27_max_density_position_total_mass"
+style="width:434px;height:368px">
+     <p>c. halos location: “center of mass”, Colormao:  “particles number of a halo”</p>
+       <img
+src="https://raw.githubusercontent.com/mxwang/cs594cosmovis/gh-pages/images/halos_3D_27_particles_number.png"
+alt="halos_3D_27_particles_number"
+style="width:434px;height:368px">
+    <p>d. Halos Rotation</p>
+    <img
+src="https://raw.githubusercontent.com/mxwang/cs594cosmovis/gh-pages/images/animation_27.gif"
+alt="animation_27">
+     
+     <h6> - Visualize the Halos Evolution of time steps</h6>
+         <img
+src="https://raw.githubusercontent.com/mxwang/cs594cosmovis/gh-pages/images/animation_all_1135_version.gif"
+alt="animation_all_1135_version">
+     
+
+      
+
+
 
 
 <p> 2. Representation of four recognized halos: </p>
